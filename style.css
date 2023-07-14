@@ -139,11 +139,13 @@ body::before{
   top: -10px;
   color: #ba24c2;
   font-size: 14px;
-  background: #fff;
+  background: #cacaff;
+  border-radius: 10px;
+  padding: 2px 20px;
 }
 .cont .input input[type="submit"]{
-  color: #fff;
-  background: #ba24c2;
+  color: black;
+  background: orange;
   padding-left: 0;
   font-size: 18px;
   font-weight: 500;
@@ -161,6 +163,15 @@ body::before{
 .cont .imag img{
   width: 100%;
   border-radius: 15px;
+}
+
+.icon{
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+.icon img{
+  margin-inline: 15px;
 }
 
 @media (max-width:1000px) {
